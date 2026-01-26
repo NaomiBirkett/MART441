@@ -6,7 +6,7 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(HW1/imgs/Underthings.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url('imgs/Underthings.jpg');
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,20 +23,12 @@ body {
     color: white;
 }
 
-.about {
+.about,.games {
   max-width: 80%;
   border: 2px solid #333333;
   padding: 20px;
   margin: 20px auto;
   background-color: #9cb7e3;
-}
-
-.games {
-  max-width: 80%;
-  border: 2px solid #333333;
-  padding: 20px;
-  margin: 20px auto;
-  background-color: #9cb7e3; 
 }
 
 h1 {
