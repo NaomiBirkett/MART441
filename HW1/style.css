@@ -52,3 +52,17 @@ ul {
   text-align: center;
   list-style-position: inside;
 }
+
+@media (max-width: 600px) {
+
+  .about,.games {
+    min-width: 400px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+
+  .about,.games {
+    min-width: 700px;
+  }
+}
