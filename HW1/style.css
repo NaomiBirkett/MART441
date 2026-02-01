@@ -53,7 +53,7 @@ ul {
   list-style-position: inside;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 
   .about,.games {
     min-width: 400px;
