@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(184, 186, 206);
+    align-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20%;
+}
+
+button {
+  background-color: #898bb4;
+  padding: 8px;
+  margin: 4px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #100631;
+  color: whitesmoke;
+}
