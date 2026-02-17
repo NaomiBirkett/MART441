@@ -1,0 +1,55 @@
+</html><!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Cozy Morning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="startPage">
+        <h1>A Cozy Morning</h1>
+        <p>A choose-your-own-adventure by Naomi Birkett. Images sourced via StockCake.</p>
+        <h3>Click the button below to begin your adventure.</h3>
+        <button id="beginButton" onclick="startGame();">Begin</button>
+    </div>
+
+    <div id="mainContent" class="hidden">
+        <h1>A Cozy Morning</h1>
+
+        <img src="imgs/StockCake-Morning.jpg" id="storyImage">
+
+        <p id="scoreDisplay">Readiness Level: 0</p>
+
+        <div id="question">
+            It's morning. You emerge from a dream, wrapped warmly in your bed. A warm splash of sunlight shines through a crack in your bedroom curtains, and the early morning sounds of spring filter in through the window. You look at your phone and realize it's Saturday and you have no responsibilities today. Should you: get up or go back to sleep?
+        </div>
+
+        <br>
+
+        <input id="option" type="text" value="Type your response here">
+        <button id="btnSubmit" onclick="getOption1();">Click to continue</button>
+
+        <input id="option2" class="hidden" type="text" value="Type your response here">
+        <button id="btnSubmit2" class="hidden" onclick="getOption2();">Click to continue</button>
+
+        <input id="option3" class="hidden" type="text" value="Type your response here">
+        <button id="btnSubmit3" class="hidden" onclick="getOption3();">Click to continue</button>
+
+        <input id="option4" class="hidden" type="text" value="Type your response here">
+        <button id="btnSubmit4" class="hidden" onclick="getOption4();">Click to continue</button>
+
+        <input id="option5" class="hidden" type="text" value="Type your response here">
+        <button id="btnSubmit5" class="hidden" onclick="getOption5();">Click to continue</button>
+
+        <input id="option6" class="hidden" type="text" value="Type your response here">
+        <button id="btnSubmit6" class="hidden" onclick="getOption6();">Click to continue</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

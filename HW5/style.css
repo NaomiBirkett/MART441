@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(245, 223, 163);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50 auto;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 67, 163);
+}
+
+#question {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#option, #btnSubmit {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5 auto;
+}
+
+.hidden {
+    display: none;
+}
