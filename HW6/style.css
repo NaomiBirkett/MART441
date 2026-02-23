@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(97, 189, 236);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.divTable{
+	display: table;
+	width: 80%;
+    margin: auto;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableCell {
+	border: 5px solid #f086e0;
+	display: table-cell;
+}
+
+
