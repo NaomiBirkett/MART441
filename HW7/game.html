@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body onload="printBlanks();">
+    <h1>Memory Game</h1>
+
+    <p>Attempts: <span id="attemptDisplay">0</span></p>
+
+    <div class="divTable">
+        <div class="divTableBody">
+
+            <div class="divTableRow">
+                <div class="divTableCell"><img src="" id="img1" width="250" height="200" onclick="flipImage(0);"></div>
+                <div class="divTableCell"><img src="" id="img2" width="250" height="200" onclick="flipImage(1);"></div>
+                <div class="divTableCell"><img src="" id="img3" width="250" height="200" onclick="flipImage(2);"></div>
+                <div class="divTableCell"><img src="" id="img4" width="250" height="200" onclick="flipImage(3);"></div>
+            </div>
+
+            <div class="divTableRow">
+                <div class="divTableCell"><img src="" id="img5" width="250" height="200" onclick="flipImage(4);"></div>
+                <div class="divTableCell"><img src="" id="img6" width="250" height="200" onclick="flipImage(5);"></div>
+                <div class="divTableCell"><img src="" id="img7" width="250" height="200" onclick="flipImage(6);"></div>
+                <div class="divTableCell"><img src="" id="img8" width="250" height="200" onclick="flipImage(7);"></div>
+            </div>
+
+            <div class="divTableRow">
+                <div class="divTableCell"><img src="" id="img9" width="250" height="200" onclick="flipImage(8);"></div>
+                <div class="divTableCell"><img src="" id="img10" width="250" height="200" onclick="flipImage(9);"></div>
+                <div class="divTableCell"><img src="" id="img11" width="250" height="200" onclick="flipImage(10);"></div>
+                <div class="divTableCell"><img src="" id="img12" width="250" height="200" onclick="flipImage(11);"></div>
+            </div>
+
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+
+</html>

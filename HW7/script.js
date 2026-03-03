@@ -28,7 +28,7 @@ function startGame() {
 
   localStorage.setItem("playerData", playerString);
 
-  window.location.href = "index.html";
+  window.location.href = "game.html";
 }
 
 
@@ -174,8 +174,10 @@ function endGame() {
 
 //results page
 function loadResults() {
+  console.log("loadResults() called"); // Debugging log
 
   let storedData = localStorage.getItem("playerData");
+  console.log("Stored playerData:", storedData); // Debugging log
 
   if (!storedData) {
     document.body.innerHTML = "<h2>No game data found.</h2>";
@@ -201,7 +203,7 @@ function playAgain() {
 
   localStorage.setItem("playerData", JSON.stringify(player));
 
-  window.location.href = "index.html";
+  window.location.href = "game.html";
 }
 
 
@@ -209,5 +211,5 @@ function resetGame() {
 
   localStorage.clear();
 
-  window.location.href = "intro.html";
+  window.location.href = "index.html";
 }
