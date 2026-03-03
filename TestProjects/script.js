@@ -25,7 +25,6 @@ function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let randomIndex = Math.floor(Math.random() * (i + 1));
 
-    // swap values
     let temp = array[i];
     array[i] = array[randomIndex];
     array[randomIndex] = temp;
@@ -38,8 +37,7 @@ for (let i = 0; i < blankImages.length; i++) {
 
   let img = document.createElement("img");
   img.src = blankImages[i];
-
-  // store index so we know which real image to reveal
+  
   img.setAttribute("data-index", i);
 
   img.addEventListener("click", revealImage);
