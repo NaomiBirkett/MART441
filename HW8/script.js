@@ -35,7 +35,7 @@ let slide3 = new Slide(
 );
 
 let slide4 = new Slide(
-    "imgs/Selma-Montgomery-March.jpg",
+    "imgs/Selma-Montgomery-March.JPG",
     "The Selma to Montgomery March",
     "Civil Rights Movement Co-Founder Dr. Ralph David Abernathy and his wife Mrs. Juanita Abernathy march with their children and Dr. and Mrs. Martin Luther King on the front line, leading the Selma to Montgomery March in 1965. Despite violent push back that lead to the day of this march being known as Bloody Sunday, this march was a key event leading to the passage of the Voting Rights Act.",
     "Abernathy Family",
