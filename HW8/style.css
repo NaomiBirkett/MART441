@@ -1,0 +1,20 @@
+.slideshow-container {
+    background-color:rgb(221, 213, 186);
+    ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    border: 5px solid rgb(173, 164, 47);
+}
+
+body {
+    background-color:rgb(129, 124, 109);
+}
+
+button {
+    margin: 10px;
+    padding: 4px 4px;
+    cursor: pointer;
+}
