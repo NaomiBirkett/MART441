@@ -1,0 +1,9 @@
+For this project, like any coding project I face, I try to use all tools available to me. This includes the homework modules, linked resources, my own notes and tools I've created to help me along, and AI.
+
+One of the first things I do is use a "template" that I've created for what my project directory and starter HTML should be. Then, I located a JSON dataset that I liked and created the necessary file to page that information into. Then, I reviewed the  w3schools page on accessing and displaying JSON data using jQuery and used the "Try it Yourself" button to test out the code using my own edits to match my JSON data file. 
+
+Once I had this all added into my project, I attempted to load the page but wasn't getting results. I then used the GPT-4o chat function in Visual Studio Code to review my project and have it help me understand what steps I was missing. I like that the chat function allows the AI to walk you through the code step by step and have you manually edit the code yourself instead of using the AI mode that just edits your code for you. The AI helped to add a div container to append my data to and also added a fail function which is really nice!
+
+For creating a jQuery plugin, I wanted something that would change the background of the page to a more ocean-like color to match my data set. I followed along with the "Creating jQuery Plugins" page of our homework module to figure this step of the homework out.
+
+I'm overall proud of how my page turned out! I have been struggling with migraines this past week and wasn't sure I was even going to get this assignment done, and it all worked out in the end.
